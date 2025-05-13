@@ -1,7 +1,19 @@
-import React from "react";
+import { Header } from "components";
 
 const Dashboard = () => {
-  return <div>Dashboard</div>;
+  const user = {
+    name: "Omar",
+  };
+
+  return (
+    <main className="dashboard wrapper">
+      <Header
+        title={`Welcome ${user?.name ?? "Guest"} 👋`}
+        description="Track activity, trends and popular destinations in real time"
+      />
+      Dashboard Page Content
+    </main>
+  );
 };
 
 export default Dashboard;
