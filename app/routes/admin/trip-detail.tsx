@@ -68,7 +68,7 @@ const TripDetail = ({ loaderData }: Route.ComponentProps) => {
         title="Trip Details"
         description="View and edit AI-generated travel plans"
       />
-      <section className="contaienr wrapper-md">
+      <section className="container wrapper-md">
         <header>
           <h1 className="p-40-semibold text-dark-100">{name}</h1>
           <div className="flex items-center gap-5">
